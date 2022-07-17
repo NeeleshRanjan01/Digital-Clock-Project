@@ -75,7 +75,7 @@ function changeText() {
     document.getElementsByClassName("hello")[2].innerHTML=elementThree;
     document.getElementsByClassName("hello")[3].innerHTML=elementFour; 
 
-    document.getElementsByTagName("button")[0].innerHTML="Party time!"   
+    //document.getElementsByTagName("button")[0].innerHTML="Party time!"   
     
 }
 
