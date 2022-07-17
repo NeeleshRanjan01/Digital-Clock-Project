@@ -1,0 +1,397 @@
+
+body {
+    background-color: #3D087B;
+    width: 1366px;
+}
+
+
+.clockLogo{
+    position: absolute;
+    top: 34px;
+    left: 124px;
+}
+
+.digitalClockBox {
+    border: 1px solid #EDEDED;
+    background-color: #FFFFFF;
+    z-index: 3;
+    position:absolute;
+    top: 42px;
+    left: 806px;
+    width: 536px;
+    height: 130px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.digitalClockBox_1 {
+    border: 1px solid #EDEDED;
+    background-color: #FFFFFF;
+    z-index: 2;
+    position:absolute;
+    top: 55px;
+    left: 866px;
+    width: 416px;
+    height: 130px;
+    border-radius: 10px;
+    opacity: 0.71;
+}
+
+.digitalClockBox_2 {
+    border: 1px solid #EDEDED;
+    background-color: #FFFFFF;
+    z-index: 1;
+    position:absolute;
+    top: 67px;
+    left: 885px;
+    width: 379px;
+    height: 130px;
+    border-radius: 10px;
+    opacity: 0.22;
+}
+
+.time{
+    position: absolute;
+    z-index: 4;
+    top: 94px;
+    left: 845px;
+    font-size: 20px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+}
+
+.symbol1 {
+    position: absolute;
+    z-index: 4;
+    top: 70px;
+    left: 1005px;
+    font-size: 50px;
+    color: #8A11BF;
+    font-family: 'Manrope', sans-serif;
+}
+
+.symbol2 {
+    position: absolute;
+    z-index: 4;
+    top: 70px;
+    left: 1102px;
+    font-size: 50px;
+    color: #8A11BF;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+#hourbox {
+    position: absolute;
+    z-index: 4;
+    top: 62px;
+    left: 923px; 
+}
+
+#minbox {
+    position: absolute;
+    z-index: 4;
+    top: 62px;
+    left: 1022px; 
+}
+
+#secbox {
+    position: absolute;
+    z-index: 4;
+    top: 62px;
+    left: 1119px; 
+}
+
+#ambox {
+    position: absolute;
+    z-index: 4;
+    top: 62px;
+    left: 1221px;
+}
+
+.timeText {
+    position: absolute;
+    color: #8A11BF;
+    top: 10px;
+    left: 20px;
+    font-size: 36px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.timeText2{
+    position: absolute;
+    color: #8A11BF;
+    bottom: 16px;
+    left: 12px;
+    font-size: 23px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.season {
+    position: absolute;
+    color: #FFFFFF;
+    top: 22px;
+    left: 15px;
+    font-size: 36px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.alarmTimeBox{
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: #FFFFFF;
+    z-index: 1;
+    position:absolute;
+    top: 149px;
+    left: 124px;
+    width: 566px;
+    height: 363px;
+}
+
+.labelOne {
+    position:absolute;
+    top: 20px;
+    left: 80px;
+    font-size: 18px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+}
+
+.labelTwo {
+    position:absolute;
+    top: 122px;
+    left: 80px;
+    font-size: 18px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+}
+
+.labelThree {
+    position:absolute;
+    top: 218px;
+    left: 80px;
+    font-size: 18px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+}
+
+.labelFour {
+    position:absolute;
+    top: 315px;
+    left: 80px;
+    font-size: 18px;
+    color: #3D087B;
+    font-family: 'Manrope', sans-serif;
+}
+
+#wake {
+    position:absolute;
+    top: 14px;
+    left: 261px;
+    width: 281px;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3D087BDE;
+    line-height: 50px;
+}
+#lunch {
+    position:absolute;
+    top: 111px;
+    left: 261px;
+    width: 281px;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3D087BDE;
+
+}
+
+#nap{
+    position:absolute;
+    top: 207px;
+    left: 261px;
+    width: 281px;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3D087BDE;
+}
+#night {
+    position:absolute;
+    top: 304px;
+    left: 261px;
+    width: 281px;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #3D087BDE;
+}
+
+
+.iconOne{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+
+.iconTwo{
+    position: absolute;
+    top: 117px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+
+.iconThree{
+    position: absolute;
+    top: 213px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+
+.iconFour{
+    position: absolute;
+    top: 310px;
+    left: 25px;
+    width: 34px;
+    height: 34px;
+}
+
+.line1{
+    position: absolute;
+    border-left: 1px solid #C2C2C2;
+    height: 33px;
+    top: 68.5px;
+    left: 42.5px;
+}
+
+.line2{
+    position: absolute;
+    border-left: 1px solid #C2C2C2;
+    height: 33px;
+    top: 165.5px;
+    left: 42.5px;
+}
+
+.line3{
+    position: absolute;
+    border-left: 1px solid #C2C2C2;
+    height: 33px;
+    top: 261.5px;
+    left: 42.5px;
+}
+
+.line4{
+    position: absolute;
+    border-left: 3px solid #C2C2C2;
+    height: 690px;
+    top: -110px;
+    left: 620px;
+}
+
+
+
+
+.statementBox {
+    border: 1px solid #EDEDED;
+    background-color: #FFFFFF;
+    position:absolute;
+    border-radius: 10px;
+    opacity: 1;
+    top: 212px;
+    left: 806px;
+    width: 536px;
+    height: 118px;
+    text-align: center;
+}
+
+.statementBox p {
+    margin-top: 30px;
+    color: #8E53F0;
+    font-size: 30px;
+    font-family: 'Baumans', cursive;
+    font-weight: 900;
+}
+
+
+.img {
+    position: absolute;
+    top: 345px;
+    left: 807px;
+    width: 536px;
+    height: 341px;
+}
+
+.mStatementBoxTwo{
+    position: absolute;
+    top: 527px;
+    left: 124px;
+       
+}
+
+.statementBoxTwo {
+    border: 1px solid #EDEDED;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.23;
+    width: 566px;
+    height: 77px;   
+}
+
+.mStatementBoxTwo p {
+    margin-top: -55px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Baumans', cursive;
+    font-weight: 900;
+}
+
+.setAlarm {
+    border: 1px solid #EDEDED;
+    background-image:linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    border-radius: 4px;
+    position: absolute;
+    top: 624px;
+    left: 124px;
+    width: 299px;
+    height: 50px;   
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.mAlarmInfo {
+    position: absolute;
+    top: 615px;
+    left: 437px;
+    font-size: 15px;
+    color: #F25CFE;
+}
+
+
+.alarmInvotext {
+    margin-top: 8px;
+    margin-left: 6px;
+    
+}
+.alarmInfo {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;
+    border-radius: 10px;
+    width: 253px;
+    height: 117px;   
+}
